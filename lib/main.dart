@@ -28,7 +28,6 @@ class MainPage extends StatelessWidget{
         title: const Text("F T I & S D B"),
         centerTitle: true,
         elevation: 3,
-        bottomOpacity: 10,
         actions: [
           IconButton(onPressed: (){}, icon: const Icon(Icons.dark_mode_outlined))
         ],
