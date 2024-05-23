@@ -25,7 +25,7 @@ class MainPage extends StatelessWidget{
       backgroundColor: Colors.deepPurple[100],
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        title: const Text("A P P B A R"),
+        title: const Text("F T I & S D B"),
         centerTitle: true,
         elevation: 3,
         bottomOpacity: 10,
