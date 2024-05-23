@@ -1,6 +1,6 @@
 # simple_app_bar
 
-A new Flutter project.
+App bar project
 
 ## Getting Started
 

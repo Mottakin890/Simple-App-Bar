@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(app());
+  runApp(const app());
 }
 class app extends StatelessWidget{
   const app({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: MainPage(),
       debugShowCheckedModeBanner: false,
     );
@@ -17,6 +17,8 @@ class app extends StatelessWidget{
 }
 
 class MainPage extends StatelessWidget{
+  const MainPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
